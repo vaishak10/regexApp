@@ -1,0 +1,28 @@
+/*tags*/
+h1{
+    font-family: 'Staatliches', cursive;
+}
+label, p, input[type=text]{
+    font-family: 'Oxygen', sans-serif;
+}
+
+/*classess*/
+.validations{
+    display:grid;
+    row-gap:18px;
+}
+.username-validation,
+.mob-validation,
+.password-validation,
+.email-validation{
+    text-align: center;
+    background-color:#FF5C00;
+    display:grid;
+    border-radius:10px;
+}
+.valid-field{
+    color:#A7D0CD;
+}
+.invalid-field{
+    color:#FFD31D;
+}
