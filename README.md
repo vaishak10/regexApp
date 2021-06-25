@@ -9,6 +9,7 @@ This consists of 4 fields:
 Along with each field is the validation condition which uses regex, to check whether the entered value follows certain criterias for each field.
 
 *Criterias for each field*
+
     A) Username:
        
        1. Usernames can only use alpha-numeric characters.
