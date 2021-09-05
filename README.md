@@ -1,4 +1,4 @@
-***About this single page application***
+# Regex App
 
 AIM : To match user entered values with patterns such that it is easy to find out whether user input is valid or invalid.
 On being invalid a 'Invalid <fieldname>' message will be displayed for each of the fields.
