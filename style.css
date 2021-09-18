@@ -1,4 +1,7 @@
 /*tags*/
+body { 
+    background-color: #726A95;
+}
 h1{
     font-family: 'Staatliches', cursive;
 }
@@ -8,17 +11,25 @@ label, p, input[type=text]{
 
 /*classess*/
 .validations{
-    display:grid;
-    row-gap:18px;
+    background-color: rgb(114, 106, 149);
+    box-shadow: inset 0px 0px 10px 0px rgb(120 60 70);
+    display: grid;
+    row-gap: 18px;
+    place-content: center;
+    position: relative;
+    top: 50px;
+    left: 25%;
+    border-radius: 10px;
+    width: 50%;
 }
 .username-validation,
 .mob-validation,
 .password-validation,
 .email-validation{
     text-align: center;
-    background-color:#FF5C00;
     display:grid;
     border-radius:10px;
+    width: 500px;
 }
 .valid-field{
     color:#A7D0CD;
