@@ -15,6 +15,9 @@ body {
 h1{
     font-family: 'Staatliches', cursive;
 }
+p {
+    text-align: center;
+}
 label,p,input[type=text] {
     font-family: 'Oxygen', sans-serif;
 }
