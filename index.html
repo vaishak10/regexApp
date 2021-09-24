@@ -17,32 +17,28 @@
 <body>
     <div class="validations">
         <div class="username-validation">
-            <h1>Username Validation</h1>
-            <div oninput="validations(username,/^[a-z][a-z]+\d*$|^[a-z]\d\d+$/i,'#userName-validate-message','Username')">
+            <div class="validation-fields" oninput="validations(username,/^[a-z][a-z]+\d*$|^[a-z]\d\d+$/i,'#userName-validate-message','Username')">
                 <label>Username:</label>
                 <input type="text" id="username" class="username">
             </div>
             <p id="userName-validate-message"></p>
         </div>
         <div class="mob-validation">
-            <h1>Mobile Number Validation</h1>
-            <div oninput="validations(mob,/^[+91]{3}\s\d{5,10}$/i,'#mob-validate-message','Mobile number')">
-                <label>Mobile Number:</label>
+            <div class="validation-fields" oninput="validations(mob,/^[+91]{3}\s\d{5,10}$/i,'#mob-validate-message','Mobile number')">
+                <label>Mobile No:</label>
                 <input type="text" id="mob" class="mob">
             </div>
             <p id="mob-validate-message"></p>
         </div>
         <div class="email-validation">
-           <h1>E-mail Validation</h1>
-           <div oninput="validations(email,/^[a-zA-Z.]+\d*@[a-zA-Z]+.com$/,'#email-validate-message','E-mail')">
+           <div class="validation-fields" oninput="validations(email,/^[a-zA-Z.]+\d*@[a-zA-Z]+.com$/,'#email-validate-message','E-mail')">
                <label>E-mail:</label>
                <input type="text" id="email" class="email">
            </div>
            <p id="email-validate-message"></p>
         </div>
         <div class="password-validation">
-          <h1>Password Validation</h1>
-          <div oninput="validations(password,/^[@#&$][a-zA-Z]{4,7}\d{2}$/,'#password-validate-message','Password')">
+          <div class="validation-fields" oninput="validations(password,/^[@#&$][a-zA-Z]{4,7}\d{2}$/,'#password-validate-message','Password')">
                 <label>Password:</label>
                 <input type="password" id="password" class="password">
             </div>
