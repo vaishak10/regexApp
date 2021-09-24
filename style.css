@@ -7,19 +7,29 @@
 /*tags*/
 body { 
     background-color: #726A95;
+    font-family: 'Staatliches', cursive;
     display: grid;
     place-content: center;
     height: 100vh;
     width: 100vw;
 }
-h1{
-    font-family: 'Staatliches', cursive;
-}
 p {
     text-align: center;
+    margin-top: 4px;
 }
-label,p,input[type=text] {
-    font-family: 'Oxygen', sans-serif;
+label {
+    font-weight: bold;
+    letter-spacing: 2px;
+    align-self: center;
+}
+input[type=text],
+input[type=password] {
+    border-radius: 10px;
+    border-style: none; 
+    box-shadow: inset 0px 0px 18px 8px rgb(106 149 146);
+    font-family: 'Oxygen',serif;
+    outline: none;
+    padding: 4px;
 }
 input[type=password] {
     width: 144px;
@@ -44,6 +54,15 @@ input[type=password] {
     }
 }
 
+/*Id Selectors*/
+#userName-validate-message,
+#mob-validate-message,
+#email-validate-message,
+#password-validate-message {
+    font-family: 'Oxygen',serif;
+    font-size: 12px;
+}
+
 /*classess*/
 .validations{
     background-color: rgb(114, 106, 149);
@@ -62,8 +81,17 @@ input[type=password] {
     column-gap: 10px;
 }
 .email-validation > .validation-fields{
+    justify-content: center;
     column-gap: 36px;
 }
 .password-validation > .validation-fields {
     column-gap: 14px;
+}
+.valid-field {
+    color: rgba(100, 225, 0, 1);
+    font-size: 16px;
+}
+.invalid-field {
+    color: rgba(255, 125, 0, 1);
+    font-size: 16px;
 }
